@@ -13,7 +13,7 @@ def caesar_cipher(message, shift)
       message_caesar << c
     end
   end
-  puts message_caesar.pack('c*')
+  return message_caesar.pack('c*')
 end
 
 caesar_cipher("What a string!", 5)
